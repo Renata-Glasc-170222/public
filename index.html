@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Atelier Echo — Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page home">
+  <header class="site-header">
+    <a class="logo" href="index.html">
+      <svg width="48" height="48" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#ff8a8a"/><stop offset="1" stop-color="#7b61ff"/></linearGradient></defs><rect width="24" height="24" rx="4" fill="url(#g)"/></svg>
+      <span>Atelier Echo</span>
+    </a>
+    <nav class="nav">
+      <a href="shop.html">Shop</a>
+      <a href="product.html">Product</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="index.html#contact" class="cta">Contact</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="hero-art">
+      <!-- Decorative abstract SVG -->
+      <svg viewBox="0 0 800 400" preserveAspectRatio="none" class="floating-blob" aria-hidden="true">
+        <defs>
+          <linearGradient id="lg1" x1="0" x2="1"><stop offset="0" stop-color="#ffd6a5"/><stop offset="1" stop-color="#c6f3ff"/></linearGradient>
+          <filter id="gblur"><feGaussianBlur stdDeviation="30"/></filter>
+        </defs>
+        <path d="M0 200 Q150 50 300 200 T600 200 T800 200 L800 400 L0 400 Z" fill="url(#lg1)" filter="url(#gblur)" opacity="0.9"/>
+      </svg>
+    </div>
+
+    <div class="hero-content">
+      <h1>Objects of Quiet Delight</h1>
+      <p class="lead">A small shop of tactile prints, artisanal objects and limited-run artworks — each piece handcrafted to invite reflection and color into everyday life.</p>
+      <p class="actions">
+        <a class="btn" href="shop.html">Browse the Shop</a>
+        <a class="btn ghost" href="gallery.html">View Gallery</a>
+      </p>
+    </div>
+  </main>
+
+  <section class="featured">
+    <h2>Featured collection</h2>
+    <div class="grid">
+      <article class="card">
+        <div class="card-visual" style="background:linear-gradient(135deg,#ffd6a5,#ff8a8a);"></div>
+        <h3>Cerulean Study</h3>
+        <p class="muted">Hand-printed etching — limited edition</p>
+        <p class="price">$120</p>
+        <a class="btn small" href="product.html">View</a>
+      </article>
+
+      <article class="card">
+        <div class="card-visual" style="background:linear-gradient(135deg,#c6f3ff,#7b61ff);"></div>
+        <h3>Folded Light</h3>
+        <p class="muted">Silkscreen on cotton paper</p>
+        <p class="price">$80</p>
+        <a class="btn small" href="product.html">View</a>
+      </article>
+
+      <article class="card">
+        <div class="card-visual" style="background:linear-gradient(135deg,#fce7f3,#ffd6a5);"></div>
+        <h3>Granite Echo</h3>
+        <p class="muted">Stoneware vessel, glazed</p>
+        <p class="price">$65</p>
+        <a class="btn small" href="product.html">View</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Visit or say hello</h2>
+    <div class="contact-grid">
+      <div>
+        <p class="muted">Studio hours by appointment. Local pickup available.</p>
+        <p><strong>Email:</strong> hello@atelier-echo.example</p>
+        <p><strong>Location:</strong> Brooklyn, NY</p>
+      </div>
+      <form class="contact-form" action="#" onsubmit="return false;">
+        <label>
+          Your name
+          <input type="text" name="name" placeholder="Ada" />
+        </label>
+        <label>
+          Message
+          <textarea name="message" placeholder="I’m interested in piece #3..."></textarea>
+        </label>
+        <button class="btn">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <small>© 2025 Atelier Echo — A small creative shop</small>
+    <div class="social">
+      <a aria-label="instagram" href="#">IG</a>
+      <a aria-label="pinterest" href="#">PT</a>
+    </div>
+  </footer>
+</body>
+</html>
