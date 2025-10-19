@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Atelier Echo — Shop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page shop">
+  <header class="site-header">
+    <a class="logo" href="index.html"><span>Atelier Echo</span></a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="product.html">Product</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="shop-intro">
+      <h1>Shop</h1>
+      <p class="lead muted">Curated objects and limited edition prints. Click any item to see details.</p>
+    </div>
+
+    <aside class="sidebar">
+      <div class="filter-card">
+        <h3>Filters</h3>
+        <label><input type="checkbox" /> Prints</label>
+        <label><input type="checkbox" /> Ceramics</label>
+        <label><input type="checkbox" /> Editions</label>
+      </div>
+      <div class="info-card">
+        <h3>Shipping</h3>
+        <p class="muted">Ships within 3–7 business days. International shipping rates vary.</p>
+      </div>
+    </aside>
+
+    <section class="catalog">
+      <div class="grid columns-3">
+        <!-- Repeated card -->
+        <article class="product-card">
+          <a href="product.html" class="product-thumb" aria-hidden="true">
+            <div class="thumb-visual" style="background:linear-gradient(135deg,#c6f3ff,#7b61ff)"></div>
+          </a>
+          <div class="product-info">
+            <h3>Folded Light</h3>
+            <p class="muted">Silkscreen print — 12x16"</p>
+            <div class="row">
+              <span class="price">$80</span>
+              <a class="btn ghost small" href="product.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a href="product.html" class="product-thumb" aria-hidden="true">
+            <div class="thumb-visual" style="background:linear-gradient(135deg,#ffd6a5,#ff8a8a)"></div>
+          </a>
+          <div class="product-info">
+            <h3>Cerulean Study</h3>
+            <p class="muted">Etching — signed</p>
+            <div class="row">
+              <span class="price">$120</span>
+              <a class="btn ghost small" href="product.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a href="product.html" class="product-thumb" aria-hidden="true">
+            <div class="thumb-visual" style="background:linear-gradient(135deg,#fce7f3,#ffd6a5)"></div>
+          </a>
+          <div class="product-info">
+            <h3>Granite Echo</h3>
+            <p class="muted">Stoneware vessel</p>
+            <div class="row">
+              <span class="price">$65</span>
+              <a class="btn ghost small" href="product.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Add more cards as desired -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© 2025 Atelier Echo</small>
+  </footer>
+</body>
+</html>
