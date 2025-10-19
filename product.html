@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Atelier Echo — Product</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page product">
+  <header class="site-header">
+    <a class="logo" href="index.html"><span>Atelier Echo</span></a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+
+  <main class="product-main container">
+    <div class="product-visual">
+      <!-- Large decorative product visual -->
+      <div class="hero-slab" style="background:linear-gradient(135deg,#c6f3ff,#7b61ff)"></div>
+      <div class="product-tags">
+        <span class="tag">Limited edition</span>
+        <span class="tag">Signed</span>
+      </div>
+    </div>
+
+    <aside class="product-details">
+      <h1>Folded Light</h1>
+      <p class="muted">Silkscreen print on 300gsm cotton paper. Hand-pulled, signed and numbered edition of 50.</p>
+      <p class="price large">$80</p>
+
+      <form class="purchase" action="#" onsubmit="return false;">
+        <label>
+          Quantity
+          <select name="qty">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </label>
+        <div class="row">
+          <button class="btn large">Add to cart</button>
+          <a class="btn ghost" href="shop.html">Back to shop</a>
+        </div>
+      </form>
+
+      <section class="details">
+        <h3>Details</h3>
+        <ul>
+          <li>Size: 12 × 16 inches</li>
+          <li>Paper: 300gsm cotton rag</li>
+          <li>Edition: 50</li>
+        </ul>
+      </section>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <small>© 2025 Atelier Echo</small>
+  </footer>
+</body>
+</html>
